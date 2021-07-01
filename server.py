@@ -48,7 +48,7 @@ def writefn(username,password,data):
         return "invalid username or password! If you dont have an account please create one."
     else:
         f=open(username+".txt","a")
-        f.write("\n"+str(data))
+        f.write(str(data)+"\n")
         return "True \n<br>Data written to databse."
 
 @app.route("/read/<username>/<password>")
