@@ -6,8 +6,8 @@ Clone this repo to your server and run server.py and open up the port 3000 (This
 # Drivers:
 Suppported languages/drivers:
 
-* ```C - LibSimpleDBc : Import the h file to your program , this driver is simple single header file driver , NO DEPENDENDIES whatsoever.```
+* ```C - LibSimpleDBc : Import the h file to your program , this driver is simple single header file driver , DEPENDENCIES : libCurl.```
 
-As of now using these drivvers as needed by the developer ofc needs some technical know-how , this is something I can definetly work on.
+As of now using these drivers as needed by the developer ofc needs some technical know-how , this is something I can definetly work on.
 
 Hopefully some one can come along and write driver files for other languages , I will see what languages I can add for!
