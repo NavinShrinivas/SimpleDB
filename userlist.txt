@@ -1,2 +1,0 @@
-navin password
-stdtest cs152clab
