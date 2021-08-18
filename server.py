@@ -13,7 +13,7 @@ limiter = Limiter(
 
 @app.route('/')
 def welcomepage():
-    return "hello! You have reached the homepage of our very simple backend database running on \n<br> python and flask,To know usage , read the comment in database.c client files in \n <br>https://www.github.com/NavinShrinivas/perf-test"
+    return "hello! You have reached the homepage of our very simple backend database running on \n<br> python and flask,To know usage , read the main.c client files under stdflag /n <br>https://www.github.com/NavinShrinivas/perf-test"
 
 
 @app.route('/makeuser/<username>/<password>')
